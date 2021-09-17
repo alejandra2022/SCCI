@@ -31,13 +31,14 @@ namespace SCCI
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Principal";
+            this.Text = "Principal";
             this.ResumeLayout(false);
 
         }
