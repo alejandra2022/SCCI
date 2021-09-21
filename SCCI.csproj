@@ -57,12 +57,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BarriosAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarriosAM.designer.cs">
+      <DependentUpon>BarriosAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarriosP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarriosP.designer.cs">
+      <DependentUpon>BarriosP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Datos_SCCI.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Datos_SCCI.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DepartamentosAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartamentosAM.designer.cs">
+      <DependentUpon>DepartamentosAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartamentosP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartamentosP.designer.cs">
+      <DependentUpon>DepartamentosP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos.cs" />
+    <Compile Include="NacionalidadesAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NacionalidadesAM.designer.cs">
+      <DependentUpon>NacionalidadesAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NacionalidadesP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NacionalidadesP.designer.cs">
+      <DependentUpon>NacionalidadesP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +113,24 @@
     <Compile Include="Visor_Reportes.Designer.cs">
       <DependentUpon>Visor_Reportes.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BarriosAM.resx">
+      <DependentUpon>BarriosAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarriosP.resx">
+      <DependentUpon>BarriosP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartamentosAM.resx">
+      <DependentUpon>DepartamentosAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartamentosP.resx">
+      <DependentUpon>DepartamentosP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NacionalidadesAM.resx">
+      <DependentUpon>NacionalidadesAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NacionalidadesP.resx">
+      <DependentUpon>NacionalidadesP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +142,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Visor_Reportes.resx">
       <DependentUpon>Visor_Reportes.cs</DependentUpon>
@@ -115,6 +170,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exportar_Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lapiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
